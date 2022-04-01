@@ -1,8 +1,31 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-int a = 5;
-int b = 3;
-if(a + b > 10)
-(
-    Console.WriteLine("The answer is greater than 10");
-)
+string food;
+
+Random random = new Random();
+int rd = random.Next(0, 100);
+Console.WriteLine(rd););
+
+food = "ramen";
+
+Console.WriteLine("We have ramen,spaghetti and salad. Which do you like?");
+food = Console.ReadLine();
+
+switch (food) 
+{   
+    case "ramen":
+         Console.WriteLine ("It cost you NT 200.");
+         break;
+
+    case "spaghetti":
+         Console.WriteLine ("It cost you NT 180.");
+         break;
+         
+    case "salad":
+         Console.WriteLine ("It cost you NT 60.");
+         break;
+
+    default:
+         Console.WriteLine ("Sorry, we do not sell " + food + ".");
+         break;
+}
